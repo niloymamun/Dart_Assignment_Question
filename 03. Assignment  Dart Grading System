@@ -1,6 +1,9 @@
 Assignment: Dart Grading System
 Objective
-You are tasked with developing a simple grading system using Dart that evaluates a student's performance based on their marks in three subjects. The program should calculate the total marks, average marks, and assign a grade based on the following criteria:
+You are tasked with developing a simple grading system 
+using Dart that evaluates a student's performance based on their marks in three subjects.
+The program should calculate the total marks, average marks,
+and assign a grade based on the following criteria:
 
 Grade A: Average marks ≥ 90
 Grade B: Average marks ≥ 80 and < 90
