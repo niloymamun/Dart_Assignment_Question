@@ -1,0 +1,60 @@
+Assignment: Dart Grading System
+Objective
+You are tasked with developing a simple grading system using Dart that evaluates a student's performance based on their marks in three subjects. The program should calculate the total marks, average marks, and assign a grade based on the following criteria:
+
+Grade A: Average marks ≥ 90
+Grade B: Average marks ≥ 80 and < 90
+Grade C: Average marks ≥ 70 and < 80
+Grade D: Average marks ≥ 60 and < 70
+Grade F: Average marks < 60
+Requirements
+Create a Dart program that accepts student marks for three subjects.
+Calculate the total marks and average marks.
+Determine the grade based on the criteria above.
+Display the total marks, average, and grade to the user.
+Starter Code
+Here’s some code to get you started. Complete the missing sections to make the program functional.
+
+dart
+Copy code
+import 'dart:io';
+
+void main() {
+  // Step 1: Accept marks for three subjects
+  print("Enter marks for Subject 1:");
+  int? subject1 = int.parse(stdin.readLineSync()!);
+
+  print("Enter marks for Subject 2:");
+  int? subject2 = int.parse(stdin.readLineSync()!);
+
+  print("Enter marks for Subject 3:");
+  int? subject3 = int.parse(stdin.readLineSync()!);
+
+  // Step 2: Calculate total marks (Complete this section)
+  int totalMarks = 0; // Replace 0 with the correct calculation
+
+  // Step 3: Calculate average marks (Complete this section)
+  double averageMarks = 0.0; // Replace 0.0 with the correct calculation
+
+  // Step 4: Determine grade based on average marks (Complete this section)
+  String grade = ""; // Implement the grading logic
+
+  // Step 5: Display the results
+  print("Total Marks: $totalMarks");
+  print("Average Marks: $averageMarks");
+  print("Grade: $grade");
+}
+Tasks
+Complete the missing calculations:
+Fill in the logic to compute the totalMarks and averageMarks.
+
+Implement the grading system:
+Write a conditional statement to assign the correct grade based on the averageMarks.
+
+Test the program:
+Ensure that it works correctly for different input scenarios.
+
+Optional Enhancements:
+
+Add error handling to validate that the entered marks are non-negative and do not exceed a maximum (e.g., 100).
+Allow the program to handle multiple students' data in a loop.
